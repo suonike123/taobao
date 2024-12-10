@@ -1,0 +1,256 @@
+.login_container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #F0EFF2;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+    padding: 22px 0;
+    box-sizing: border-box;
+
+    .l {
+      width: 72px;
+      height: 42px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .r {
+      display: flex;
+      flex-direction: column;
+      color: #666;
+      font-size: 12px;
+
+      span:hover {
+        color: #f40 !important;
+      }
+
+      .r_b {
+        display: flex;
+        align-items: center;
+        margin-top: 4px;
+
+        img {
+          width: 16px;
+          height: 18px;
+        }
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 866px;
+    height: 517px;
+    border-radius: 18px;
+    padding: 80px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 87px auto;
+
+    .left {
+      width: 196px;
+      margin-right: 80px;
+
+      .qrcode_title {
+        font-family: PingFang SC;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0;
+        color: #11192d;
+      }
+
+      .qrcode_imgs {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        width: 195px;
+        height: 195px;
+        border: 1px solid #e5e8ec;
+        border-radius: 8px;
+        box-shadow: none;
+        background-color: #fff;
+        padding: 14px;
+        box-sizing: border-box;
+
+        .qrcode {
+          width: 100%;
+          height: 100%;
+        }
+
+        .tao {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          margin: auto;
+          width: 24px;
+          height: 24px;
+        }
+      }
+
+      .open {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        color: #7c889c;
+        margin: 20px 0 40px;
+
+        .hasColor {
+          color: #ff6200;
+        }
+      }
+
+      .query {
+        font-size: 14px;
+        color: #6c6c6c;
+        text-align: center;
+      }
+    }
+
+    .line {
+      height: 354px;
+      width: 1px;
+      background: #f2f2f2;
+      margin-right: 80px;
+    }
+
+    .right {
+      position: relative;
+      width: 350px;
+
+      .tabs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        .tabs_line {
+          margin: 0 2px;
+          width: 1px;
+          height: 18px;
+          background-color: #f0f0f0;
+        }
+
+        .tab {
+          padding: 0 20px;
+          height: 16px;
+          margin: 0;
+          font-size: 22px;
+          font-weight: 500;
+          line-height: 16px;
+          color: #11192d;
+
+
+
+          &.active {
+            font-weight: 600;
+            color: #ff6200;
+          }
+        }
+      }
+
+      .ipt {
+        display: block;
+        width: 350px;
+        box-sizing: border-box;
+        padding-left: 20px;
+        height: 48px;
+        border-radius: 8px;
+        border: none;
+        background: #f3f6f8;
+        font-family: PingFang SC;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0;
+        color: #11192d;
+        margin-bottom: 20px;
+        outline: none;
+      }
+
+      .forgotpwd {
+        position: absolute;
+        right: 20px;
+        top: 130px;
+        height: 20px;
+        bottom: 14px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0;
+        color: #50607a;
+        cursor: pointer;
+      }
+
+      .login_btn {
+        display: block;
+        margin-top: 53px;
+        width: 350px;
+        height: 48px;
+        line-height: 48px;
+        border-radius: 8px;
+        border-width: 0;
+        opacity: 1;
+        background: #ff6200;
+        font-family: PingFang SC;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 0;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      .others {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        .other_item {
+          display: flex;
+          align-items: center;
+
+          span {
+            font-size: 14px;
+            color: #50607a;
+          }
+
+          a {
+            font-size: 14px;
+            color: #50607a;
+
+          }
+
+          img {
+            width: 14px;
+            height: 14px;
+            margin-right: 4px;
+          }
+        }
+
+        .item_line {
+          width: 1px;
+          height: 14px;
+          background-color: #f3f6f8;
+        }
+      }
+
+    }
+  }
+
+}

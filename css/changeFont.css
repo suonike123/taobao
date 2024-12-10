@@ -1,0 +1,40 @@
+#left_chdalu li span.change {
+  font-size: 6px;
+  color: #a7a7a7;
+  margin-left: 5px;
+}
+#rig_chdalu li span.change2 {
+  color: #ff4400;
+  font-size: 14px;
+  margin-right: 5px;
+}
+#rig_chdalu li span.change1 {
+  font-size: 6px;
+  color: #a7a7a7;
+}
+#rig_chdalu li span.change3 {
+  font-size: 6px;
+  color: #a7a7a7;
+}
+#rig_chdalu li span.change4 {
+  font-size: 20px;
+  color: #9c9c9c;
+}
+#rleft_searchbar a span.change5 {
+  font-size: 20px;
+}
+#rig_chdalu a span.change8 {
+  font-size: 10px;
+  color: red;
+}
+#left_searchbar i.change6 {
+  position: absolute;
+  left: 14px;
+  top: 8px;
+  font-size: 20px;
+  color: #999;
+}
+#head_ilg i.change7 {
+  font-size: 16px;
+  color: #999;
+}
