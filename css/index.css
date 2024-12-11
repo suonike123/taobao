@@ -1821,9 +1821,9 @@ a {
   color: #fff;
 }
 #sidebar {
-  position: absolute;
-  top: 550px;
-  right: 290px;
+  position: fixed;
+  top: 200px;
+  right: 50px;
   width: 50px;
   height: 350px;
   border-radius: 8px;
@@ -1967,4 +1967,21 @@ a {
 .footer .manage .manage_item img {
   height: 24px;
   margin-right: 24px;
+}
+li {
+  position: relative;
+}
+li .dot {
+  width: 16px;
+  height: 16px;
+  background-color: #FF7A00;
+  border-radius: 50%;
+  display: flex;
+  color: #fff;
+  font-size: 12px;
+  align-content: inherit;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
